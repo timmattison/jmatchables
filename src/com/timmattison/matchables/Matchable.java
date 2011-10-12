@@ -2,9 +2,9 @@ package com.timmattison.matchables;
 
 /**
  * An abstract class on which MatchableString and MatchablePattern are based
- *
+ * 
  * @author Tim Mattison
-**/
+ **/
 public abstract class Matchable {
 	protected String string = null;
 
@@ -18,7 +18,7 @@ public abstract class Matchable {
 
 	public abstract boolean matches(String input);
 
-        public boolean matches(Character character) {
-                return matches(String.valueOf(character));
-        }
+	public boolean matches(Character character) {
+		return matches(String.valueOf(character));
+	}
 }

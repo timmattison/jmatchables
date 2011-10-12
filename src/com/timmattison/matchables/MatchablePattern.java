@@ -4,12 +4,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Matches when the input string has a match for the regular expression
- * pattern in the MatchablePattern.  Used for matching and capturing strings
- * using regular expressions.
- *
+ * Matches when the input string has a match for the regular expression pattern in the MatchablePattern. Used for matching and capturing strings using regular
+ * expressions.
+ * 
  * @author Tim Mattison
-**/
+ **/
 public class MatchablePattern extends Matchable {
 
 	public MatchablePattern(String string) {
